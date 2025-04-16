@@ -7,6 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/dashtomer-todo-app/',
   plugins: [tailwindcss(), vue(), vueDevTools()],
   resolve: {
     alias: {
